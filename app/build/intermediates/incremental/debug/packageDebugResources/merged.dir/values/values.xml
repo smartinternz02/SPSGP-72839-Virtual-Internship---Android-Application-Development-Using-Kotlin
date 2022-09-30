@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="dark_green">#004A31</color>
+    <color name="lavender">#8A496B</color>
+    <color name="light_green">#1DA66B</color>
+    <color name="medium_green">#3CB371</color>
+    <color name="mint">#3EB489</color>
+    <color name="mtrl_textinput_default_box_stroke_color" ns1:overrise="true">#009688</color>
+    <color name="pink">#FFB6C1</color>
+    <color name="purple_700">#7C44FB</color>
+    <color name="red">#FF2511</color>
+    <color name="sky_blue">#ADD8E6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <string name="app_name">Grocery Application</string>
+    <style name="TextInputEditTextTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#296098</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+    <style name="Theme.GroceryApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/medium_green</item>
+        <item name="colorSecondaryVariant">@color/sky_blue</item>
+        <item name="colorOnSecondary">@color/purple_700</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
