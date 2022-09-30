@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.groceryapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:6:5-25:19
+12        android:allowBackup="true"
+12-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\srish\.gradle\caches\transforms-3\6a19de105318aab1da00cfa3c60fb56e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@drawable/fav"
+17-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:10:9-37
+18        android:label="@string/app_name"
+18-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@drawable/fav"
+19-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:12:9-42
+20        android:supportsRtl="true"
+20-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.GroceryApplication" >
+22-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:14:9-56
+23        <activity
+23-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:16:9-24:20
+24            android:name="com.example.groceryapplication.MainActivity"
+24-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:17:13-41
+25            android:exported="true" >
+25-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:18:13-36
+26            <intent-filter>
+26-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:20:17-69
+27-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:22:17-77
+29-->D:\Android\SPSGP-56412-Virtual-Internship---Android-Application-Development-Using-Kotlin-main\app\src\main\AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+35            android:authorities="com.example.groceryapplication.androidx-startup"
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+36            android:exported="false" >
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+37            <meta-data
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+39                android:value="androidx.startup" />
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\srish\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+40            <meta-data
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\srish\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\srish\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+42                android:value="androidx.startup" />
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\srish\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+43        </provider>
+44
+45        <service
+45-->[androidx.room:room-runtime:2.4.3] C:\Users\srish\.gradle\caches\transforms-3\d41e7e53f32459aa3010224ea7797c1c\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+46            android:name="androidx.room.MultiInstanceInvalidationService"
+46-->[androidx.room:room-runtime:2.4.3] C:\Users\srish\.gradle\caches\transforms-3\d41e7e53f32459aa3010224ea7797c1c\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+47            android:directBootAware="true"
+47-->[androidx.room:room-runtime:2.4.3] C:\Users\srish\.gradle\caches\transforms-3\d41e7e53f32459aa3010224ea7797c1c\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+48            android:exported="false" />
+48-->[androidx.room:room-runtime:2.4.3] C:\Users\srish\.gradle\caches\transforms-3\d41e7e53f32459aa3010224ea7797c1c\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+49    </application>
+50
+51</manifest>
